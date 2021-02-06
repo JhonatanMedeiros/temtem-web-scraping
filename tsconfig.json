@@ -1,0 +1,23 @@
+{
+  "compilerOptions": {
+    "outDir": "./dist/",
+    "module": "es6",
+    "noImplicitAny": true,
+    "target": "es6",
+    "sourceMap": true,
+    "plugins": [
+      {
+        "name": "tslint-language-service"
+      }
+    ],
+    "typeRoots": [
+      "node_modules/@types",
+      "src/assets/@types"
+    ]
+  },
+  "include": ["./src/**/*"],
+  "exclude": [
+    "node_modules",
+    "test/**/*.spec.ts"
+  ]
+}
